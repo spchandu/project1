@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body{
+  margin:0;
+  padding:0;
+}
+     
+.bd{
+  display:grid;
+  justify-content:center;
+  background:rgb(254, 126, 109);
+}
+
+.container{
+  background-color:rgb(130, 111, 102);
+  width:1470px;
+  height:1000px;
+  display:grid;
+  grid-template-rows:repeat(4,1fr);
+  grid-template-columns:repeat(4,1fr);
+  row-gap:6px;
+  column-gap:6px;
+  padding:10px;
+}
+
+.item{
+  background-color:rgb(247, 204, 172);
+  padding:40px;
+}
+
+.it1{
+  grid-column-start:1;
+  grid-column-end:3;
+  background-color:rgb(198, 155, 123);
+}
+
+.it3{
+    grid-column-start:4;
+  grid-row-start:1;
+  grid-row-end:3;
+  background-color:rgb(198, 155, 123);
+ 
+}
+.it12{
+    grid-column-start:2;
+  grid-column-end:4;
+  background-color:rgb(198, 155, 123);
+  background-color:rgb(198, 155, 123);
+}
+
+li{
+    font-size: 17px;
+    line-height:30px;
+}
+
+.more{
+    display:flex;
+    place-content:center;
+    align-items:center;
+
+}
+.ul1 {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color:rgb(130, 111, 102);
+   color:black;
+   margin-bottom:10px;
+ }
+
+ body{
+     margin:0;
+     padding:0;
+ }
+
+ .li1 {
+   float: left;
+ }
+
+ .li1 a {
+   display: block;
+   color:black;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+ }
+
+ .li1 a:hover {
+   background-color:#283350;
+   color:white;
+ }
+ .heading{
+     height:100px;
+     width:1500px;
+     background-color: #283350;
+     margin-bottom:15px;
+     text-align: center;
+     color:white;
+ }
+
+    </style>
+</head>
+<body>
+  
+    <ul class="ul1">
+        <li class="li1"><a class="active" href="#">Home</a></li>
+        <li class="li1"><a href="#news">News</a></li>
+        <li class="li1"><a href="#contact">Contact</a></li>
+        <li class="li1"><a href="#about">About</a></li>
+      </ul>
+      <div class="bd">
+      <div class="heading">
+         <h1>TIPS FOR CRIME AWARENESS</h1>
+      </div>
+  <div class="container">
+    <div class="item  it1"><h3>Trust your INSTINCTS - believe your inner feelings when you get uncomfortable about a person or situation. Respond as
+        soon as you feel uncomfortable!</h3></div>
+    <div class="item"><h3>If a car appears to be following you, turn and walk in the opposite direction.</h3></div>
+    <div class="item it3">
+        <h3>THERE ARE SEVERAL WAYS TO RESIST AN ASSUALT</h3> 
+        <br>
+        <ul>
+            <li>Passive Resistance</li>
+            <li>Active Resistance</li>
+            <li>Yellling</li>
+            <li>Struggling and Fighting back</li>
+            <li>Submitting to an Attack</li>
+        </ul>
+    </div>
+    <div class="item"><h3>If a driver stops to ask directions, avoid getting near the vehicle.</h3></div>
+    <div class="item"><h3>Check inside your vehicle before entering.</h3></div>
+    <div class="item"><h3>When dropping someone off, wait until passengers have safely entered their destination.</h3></div>
+    <div class="item"><h3>Walk confidently, directly, and at a steady pace.</h3></div>
+    <div class="item"><h3>Stay in well-lighted areas, away from alleys, bushes, and entryways.</h3></div>
+    <div class="item"><h3>If you are in trouble, attract help any way you can.</h3></div>
+    <div class="item"><h3>Be aware of your surroundings and the people around you, even those you know.</h3></div>
+    <div class="item"><h3>Assess the parking spaces around your vehicle for suspicious vechicles.</h3></div>
+    <div class="item it12">
+        <h3>Know your Defenses</h3>
+        <p>Anyone can be a victim of assault. You should think about the kinds of defense you would be willing to use. In some cases, resistance can frighten off or discourage the attacker, but it can also lead them to become more violent or increase efforts to subdue the victim</p>
+        <p>Because all people and all situations are different, there is no ONE way for you to protect yourself. People have different
+            capabilities, and you must decide for yourself the best defense method for you.</p>
+    </div>
+    <div class="item more"><h3>More</h3></div>
+</div>
+</div>
+</body>
+</html>
